@@ -1,7 +1,8 @@
 // PÁGINA PRINCIPAL
 
 import Sidebar from './lib/sidebar.jsx'
-import './lib/sidebar.css'
+import Navbar from './lib/navbar.jsx'
+import './App.css'
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
     <>
     <div className='main-container'>
       <Sidebar />
+      <Navbar />
       <div className="container">
           <p>hola chiquito</p>
       </div>
