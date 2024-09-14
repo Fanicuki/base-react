@@ -6,7 +6,7 @@ function Sidebar() {
 
     return (
         <>
-        <div class="base-navbar">
+        <div class="base-sidebar">
             <div class="windows">
                 <div class="windows-btn">
                     <button><h3>Pañol</h3></button>

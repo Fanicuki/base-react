@@ -11,9 +11,7 @@ function App() {
     <div className='main-container'>
       <Sidebar />
       <Navbar />
-      <div className="container">
-          <p>hola chiquito</p>
-      </div>
+        
     </div>
     
     </>

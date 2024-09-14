@@ -1,5 +1,16 @@
 .main-navbar {
+    display: flex;
+    margin: 0;
+    padding: 0;
     border: solid 1px #dedede;
-    width: 100vh;
-    height: 80px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-bottom: solid 1px #dedede;
+}
+
+.main-navbar p {
+    vertical-align: middle;
+    line-height: 60px;
+    margin: 0;
 }
