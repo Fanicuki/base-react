@@ -1,17 +1,19 @@
 // PÁGINA PRINCIPAL
 
-import Sidebar from './lib/sidebar.jsx'
-import Navbar from './lib/navbar.jsx'
+// import Sidebar from './lib/sidebar.jsx'
+// import Navbar from './lib/navbar.jsx'
+import NavbarSidebar from './lib/navbar-sidebar.jsx'
 import './css/App.css'
 
 function App() {
   
   return (
     <>
-    <div className='layouts'>
+    <NavbarSidebar />
+    {/* <div className='layouts'>
       <Sidebar />
       <Navbar />
-    </div>
+    </div> */}
     </>
   )
 }

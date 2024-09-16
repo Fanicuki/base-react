@@ -1,0 +1,57 @@
+/* Estructura básica del layout */
+.layout-container {
+    display: flex;
+    height: 100vh; /* Altura completa de la ventana del navegador */
+}
+
+.base-sidebar {
+    width: 30%;
+    height: 100%;
+    background-color: #ffffff;
+    border-right: solid 1px #dedede;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-container {
+    flex: 1; /* Ocupa el espacio restante */
+    display: flex;
+    flex-direction: column;
+}
+
+.main-navbar {
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+}
+
+.main-content {
+    flex: 1; /* Ocupa el espacio restante debajo de la navbar */
+    padding: 16px; /* Espaciado interno para el contenido principal */
+    overflow-y: auto; /* Permite el desplazamiento vertical si el contenido excede la altura */
+}
+
+.windows-btn button {
+    display: flex;
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    border-bottom: solid 1px #dedede;
+    height: 60px;
+    cursor: pointer;
+}
+
+.windows-btn button h3 {
+    vertical-align: middle;
+    line-height: 60px;
+    font-size: 12px;
+    margin: 0;
+}
+
+.windows-btn button:hover {
+    background-color: #dedede;
+}
+
+.windows-btn button:active {
+    background-color: #c2c2c2;
+}
