@@ -10,13 +10,11 @@ html {
   margin: 0;
 }
 
-.main-container {
+.layouts {
   display: flex;
 }
 
-.container {
-  margin: 10px;
-}
-.container p {
-  margin: 0;
+.main-content {
+  position: absolute;
+  left: 30%;
 }

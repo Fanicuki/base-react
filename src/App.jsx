@@ -2,18 +2,16 @@
 
 import Sidebar from './lib/sidebar.jsx'
 import Navbar from './lib/navbar.jsx'
-import './App.css'
+import './css/App.css'
 
 function App() {
   
   return (
     <>
-    <div className='main-container'>
+    <div className='layouts'>
       <Sidebar />
       <Navbar />
-        
     </div>
-    
     </>
   )
 }

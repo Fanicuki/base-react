@@ -1,10 +1,12 @@
-import './navbar.css'
+import '../css/navbar.css'
 
 function Navbar() {
     return (
         <>
         <div class="main-navbar">
-            <p>Hola</p>
+            <div className='navbar-content'>
+                
+            </div>
         </div>
         </>
     )
