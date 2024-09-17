@@ -5,7 +5,7 @@ function Navbar() {
         <>
         <div class="main-navbar">
             <div className='navbar-content'>
-                
+                <p>Contenido</p>
             </div>
         </div>
         </>

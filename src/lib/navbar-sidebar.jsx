@@ -12,11 +12,10 @@ function Navbar({ children }) {
             <div className='main-content-container'>
                 <div className='main-navbar'>
                     <div className='navbar-content'>
-                        {/* Aquí puedes poner el contenido de la barra de navegación si es necesario */}
                     </div>
                 </div>
                 <div className='main-content'>
-                    {children}  {/* Aquí se renderiza el contenido principal que se pasa como children */}
+                    {children}
                 </div>
             </div>
         </div>

@@ -1,0 +1,18 @@
+.sidebarContent {
+    display: block;
+    user-select: none;
+}
+
+.sidebarContent summary h3 {
+    color: #fff;
+}
+
+.drop-content {
+    display: flex;
+}
+
+.drop-content svg:active {
+    transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+}

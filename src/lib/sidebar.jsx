@@ -1,6 +1,8 @@
 // BARRA LATERAL IZQUIERDA
 
 import '../css/sidebar.css'
+import SidebarContent from './panol/sidebarContentPanol.jsx'
+
 
 function Sidebar() {
 
@@ -8,11 +10,11 @@ function Sidebar() {
         <>
         <div class="base-sidebar">
                 <div class="windows-btn">
-                    <button><h3>Pañol</h3></button>
-                    <button><h3>Académicas</h3></button>
+                    <button><p>Pañol</p></button>
+                    <button><p>Académicas</p></button>
                 </div>
-                <div className='main-content'>
-                    
+                <div className='content'>
+                    <SidebarContent />
                 </div>
         </div>
         </>
